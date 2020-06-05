@@ -8,6 +8,7 @@ class Items {
 
         const serializedItems = items.map( e => {
             return {
+                id: e.id,
                 title: e.title,
                 image_url: `http://localhost:3333/uploads/${e.image}`
             };    

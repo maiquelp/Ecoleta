@@ -5,12 +5,12 @@ import cors from 'cors';
 
 const app = express();
 
+app.use(cors()); // quando em produção, adicionar cors({origin: www.etc.com})
+
 app.use(express.json()); // usando o padrão JSON no body da requisição
 
 app.use(routes);
 
 app.use('/uploads', express.static(path.resolve(__dirname, '..', 'uploads')));
-
-app.use(cors()); // quando em produção, adicionar cors({origin: www.etc.com})
 
 app.listen(3333);

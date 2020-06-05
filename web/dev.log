@@ -1,0 +1,19 @@
+npx cerate-react-app web --template=typescript
+delete arquivos inúteis
+code src/App.css //global styles
+edit public/index.html > adicionar o link das fontes informadas no App.css
+code src/pages/home/index.tsx
+code src/pages/home/styles.css
+create assets/*
+npm i react-icons
+code src/pages/CreatePoints/index.tsx
+code src/pages/CreatePoints/styles.css
+npm i react-router-dom
+npm i @types/react-router-dom -D
+code src/routes.tsx
+npm i leaflet react-leaflet
+npm i @types/react-leaflet -D
+edit public/index.html > adicionar o estilo do leaflet
+npm i axios
+code src/services/api.ts //ligação com a api do backend
+
