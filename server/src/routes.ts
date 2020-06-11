@@ -1,8 +1,13 @@
 import express from 'express';
+import multer from 'multer';    
+
+import multerConfig from './config/multer'
+
 import Points from './controllers/Points';
 import Items from './controllers/Items';
 
 const routes = express.Router();
+const upload = multer(multerConfig);
 // Tipos de rota: 
 //     GET(busca informação), 
 //     POST(cria informação), 
@@ -22,10 +27,11 @@ const routes = express.Router();
 //      delete(apagar registro)
 
 const items = new Items();
+const points = new Points();
+
 routes.get('/items', items.index);
 
-const points = new Points();
-routes.post('/points', points.create);  
+routes.post('/points', upload.single('image'), points.create); // single para unico arquivo e image para nome do campo  
 routes.get('/points/:id', points.show);  //Request param
 routes.get('/points', points.index); 
 

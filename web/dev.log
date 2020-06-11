@@ -16,4 +16,7 @@ npm i @types/react-leaflet -D
 edit public/index.html > adicionar o estilo do leaflet
 npm i axios
 code src/services/api.ts //ligação com a api do backend
+npm i react-dropzone
+code src/Components/Dropzone/index.tsx
+code src/Components/Dropzone/styles.css
 
