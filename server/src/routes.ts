@@ -1,5 +1,6 @@
 import express from 'express';
 import multer from 'multer';    
+import { celebrate, Joi } from 'celebrate'
 
 import multerConfig from './config/multer'
 
@@ -31,8 +32,25 @@ const points = new Points();
 
 routes.get('/items', items.index);
 
-routes.post('/points', upload.single('image'), points.create); // single para unico arquivo e image para nome do campo  
 routes.get('/points/:id', points.show);  //Request param
 routes.get('/points', points.index); 
+routes.post('/points', 
+    upload.single('image'), 
+    celebrate({
+        body: Joi.object().keys({
+            name: Joi.string().required(),
+            city: Joi.string().required(),
+            items: Joi.string().required(),
+            uf: Joi.string().required().max(2),
+            email: Joi.string().required().email(),
+            whatsapp: Joi.number().required(),
+            latitude: Joi.number().required(),
+            longitude: Joi.number().required(),
+        })
+    }, {
+        abortEarly: false // valida todos os campos de uma vez
+    }),
+    points.create); // single para unico arquivo e image para nome do campo  
+
 
 export default routes;
