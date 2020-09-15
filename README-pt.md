@@ -2,15 +2,15 @@
   <img alt="Ecoleta" src="web/src/assets/logo.svg" height="100px">
 </h1>
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/maiquelp/Ecoleta?color=%238257e5">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/maiquelp/Ecoleta?color=%238257e5">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/maiquelp/Ecoleta?color=%2329A361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/maiquelp/Ecoleta?color=%2329A361">
   <img alt="Project license" src="https://img.shields.io/github/license/maiquelp/Ecoleta?color=29A361">
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/maiquelp/Ecoleta?color=29A361">
   <a href="https://github.com/maiquelp/Ecoleta/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/maiquelp/Ecoleta?color=%238257e5">
-  <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-8257e5?style=flat">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/maiquelp/Ecoleta?color=%2329A361">
+  <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-29A361?style=flat">
   </a>
-  <!-- <img src="https://img.shields.io/badge/Ecoleta-NLW 2.0-8257E5?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg=="> -->
+  <!-- <img src="https://img.shields.io/badge/Ecoleta-NLW 2.0-29A361?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg=="> -->
  <br>
   <a href="https://www.linkedin.com/in/maiquelp/">
       <img alt="LinkedIn link" src="https://img.shields.io/badge/-Maiquel Piovezan-0077B5?style=flat&amp;logo=Linkedin&amp;logoColor=white" height="25px">
