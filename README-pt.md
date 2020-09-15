@@ -2,15 +2,15 @@
   <img alt="Ecoleta" src="web/src/assets/logo.svg" height="100px">
 </h1>
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/maiquelp/Ecoleta?color=%2329A361">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/maiquelp/Ecoleta?color=%2329A361">
-  <img alt="Project license" src="https://img.shields.io/github/license/maiquelp/Ecoleta?color=%2329A361">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/maiquelp/Ecoleta?color=%238257e5">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/maiquelp/Ecoleta?color=%238257e5">
+  <img alt="Project license" src="https://img.shields.io/github/license/maiquelp/Ecoleta?color=%238257e5">
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/maiquelp/Ecoleta?color=774DD6">
   <a href="https://github.com/maiquelp/Ecoleta/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/maiquelp/Ecoleta?color=%2329A361">
-  <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-29A361?style=flat">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/maiquelp/Ecoleta?color=%238257e5">
+  <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-8257e5?style=flat">
   </a>
-  <!-- <img src="https://img.shields.io/badge/Ecoleta-NLW 2.0-29A361?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg=="> -->
+  <!-- <img src="https://img.shields.io/badge/Ecoleta-NLW 2.0-8257E5?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg=="> -->
  <br>
   <a href="https://www.linkedin.com/in/maiquelp/">
       <img alt="LinkedIn link" src="https://img.shields.io/badge/-Maiquel Piovezan-0077B5?style=flat&amp;logo=Linkedin&amp;logoColor=white" height="25px">
@@ -20,17 +20,17 @@
 <strong>
 <br>
 <p align="center">
-    <a href="README.md">English</a>
+    <a href="README.md">Inglês</a>
     ·
-    <a href="README-pt.md">Portuguese</a>
+    <a href="README-pt.md">Português</a>
 </p>
 
 <p align="center">
-  <a href="#bookmark-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#computer-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#wrench-tools">Tools</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#package-installation">Installation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-license">License</a>
+  <a href="#bookmark-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#computer-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#wrench-ferramentas">Ferramentas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#package-instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
 </p>
 </strong>
 <br>
@@ -39,13 +39,13 @@
     <img alt="Screens" src=".github/screens.png" />
 </p> -->
 
-## :bookmark: About
+## :bookmark: Sobre
 
-The **Ecoleta** aims to bring together people looking for collection points for non-recyclable materials such as lamps, batteries, oil, etc, with institutions that accept to receive these materials. The backend consists of a Rest API running on a NodeJS server. The frontend was made with React and the mobile app with React Native. This project was implemented during the **Next Level Week #1** of **[Rocketseat](https://rocketseat.com.br/)**.
+O **Ecoleta** tem por objetivo aproximar pessoas que buscam postos de coleta de materiais não recicláveis como lâmpadas, pilhas e baterias, óleo, etc, com instituições que aceitam receber esses materiais. O backend consiste em uma API Rest rodando em um servidor NodeJS. O frontend foi feito com React e o app mobile com React Native. Este projeto foi implementado durante a **Next Level Week #1** da **[Rocketseat](https://rocketseat.com.br/)**.
 
 <br>
 
-## :computer: Technologies
+## :computer: Tecnologias
 
 -  **[Typescript](https://www.typescriptlang.org/)**
 -  **[Node.js](https://nodejs.org/)**
@@ -60,7 +60,7 @@ The **Ecoleta** aims to bring together people looking for collection points for 
 
 <br>
 
-## :wrench: Tools
+## :wrench: Ferramentas
 
 - **[VisualStudio Code](https://code.visualstudio.com/)**
 - **[Insomnia](https://insomnia.rest/)**
@@ -69,11 +69,11 @@ The **Ecoleta** aims to bring together people looking for collection points for 
 
 <br>
 
-## :package: Installation
+## :package: Instalação
 
-### :heavy_check_mark: **Prerequisites**
+### :heavy_check_mark: **Pré-requisitos**
 
-The following software must be installed:
+Os seguintes softwares devem estar instalados:
   
   - **[Node.js](https://nodejs.org/en/)**
   - **[Git](https://git-scm.com/)**
@@ -83,7 +83,7 @@ The following software must be installed:
 
 <br>
   
-### :arrow_down: **Cloning the repository**
+### :arrow_down: **Clonando o repositório**
 
 ```sh
   $ git clone https://github.com/maiquelp/Ecoleta.git
@@ -91,7 +91,7 @@ The following software must be installed:
 
 <br>
 
-### :arrow_forward:	**Running the applications**
+### :arrow_forward:	**Rodando as aplicações**
 
 - :package: API
 
@@ -127,7 +127,10 @@ The following software must be installed:
 
 <br>
 
-## :memo: License
+## :memo: Licença
 
-This project is under the **MIT** license.
+Este projeto está sob uma licença **MIT**.
+
+
+
 
