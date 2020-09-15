@@ -52,11 +52,11 @@ const Points = () => {
 
       setInitialPosition([latitude,longitude]);
     }
-    loadPosition();
+    loadPosition();  
   }, []);
 
   useEffect(() => {
-    api.get('items').then( res => {setItems(res.data)});
+    api.get('items').then( res => {setItems(res.data)});  
   }, []);
 
   useEffect(() => {
@@ -66,7 +66,7 @@ const Points = () => {
         uf: routeParams.uf,
         items: selectedItem
       }
-    }).then(res => {
+    }).then(res => {  
       setPoints(res.data);
     })
   }, [selectedItem]);

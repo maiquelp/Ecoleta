@@ -11,7 +11,7 @@ class Items {
                 id: e.id,
                 title: e.title,
                 //image_url: `http://localhost:3333/uploads/${e.image}`
-                image_url: `http://192.168.0.123:3333/uploads/${e.image}` // mobile não enxerga o localhost
+                image_url: `http://192.168.0.105:3333/uploads/${e.image}` // mobile não enxerga o localhost
             };    
         });
 

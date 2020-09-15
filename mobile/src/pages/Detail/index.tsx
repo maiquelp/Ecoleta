@@ -67,7 +67,7 @@ const Detail = () => {
 
         <Image style={styles.pointImage} source={{ uri: data.point.image_url}} />
         <Text style={styles.pointName}>{data.point.name}</Text>
-        <Text style={styles.pointItems}>{data.items.map(e => e.title).join(',')}</Text>
+        <Text style={styles.pointItems}>{data.items.map(e => e.title).join(', ')}</Text>
 
         <View style={styles.address}>
           <Text style={styles.addressTitle}>Endereço</Text>
@@ -77,13 +77,13 @@ const Detail = () => {
       <View style={styles.footer}>
         <RectButton style={styles.button} onPress={handleComposeWhatsapp}>
           <FontAwesome name="whatsapp" size={20} color="#fff">
-            <Text style={styles.buttonText}>Whatsapp</Text>
+            <Text style={styles.buttonText}> Whatsapp</Text>
           </FontAwesome>
         </RectButton>
 
         <RectButton style={styles.button} onPress={handleComposeMail}>
           <Icon name="mail" size={20} color="#fff">
-            <Text style={styles.buttonText}>E-mail</Text>
+            <Text style={styles.buttonText}> E-mail</Text>
           </Icon>
         </RectButton>
       </View>

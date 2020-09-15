@@ -61,7 +61,7 @@ class Points {
         const serializedPoint = {
             ...point,
                 //image_url: `http://localhost:3333/uploads/${e.image}`
-                image_url: `http://192.168.0.123:3333/uploads/${point.image}` // mobile não enxerga o localhost
+                image_url: `http://192.168.0.105:3333/uploads/${point.image}` // mobile não enxerga o localhost
         };    
         
         const items = await connection('items').
@@ -90,7 +90,7 @@ class Points {
             return {
                 ...e,
                 //image_url: `http://localhost:3333/uploads/${e.image}`
-                image_url: `http://192.168.0.123:3333/uploads/${e.image}` // mobile não enxerga o localhost
+                image_url: `http://192.168.0.105:3333/uploads/${e.image}` // mobile não enxerga o localhost
             };    
         });
 

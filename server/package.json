@@ -8,7 +8,7 @@
   },
   "main": "src/server.ts",
   "scripts": {
-    "dev": "ts-node-dev --transpileOnly --ignore-watch node_modules src/server.ts",
+    "dev": "ts-node-dev --ignore-watch node_modules src/server.ts",
     "knex:migrate": "knex --knexfile knexfile.ts migrate:latest",
     "knex:seed": "knex --knexfile knexfile.ts seed:run"
   },
