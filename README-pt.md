@@ -5,7 +5,7 @@
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/maiquelp/Ecoleta?color=%238257e5">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/maiquelp/Ecoleta?color=%238257e5">
   <img alt="Project license" src="https://img.shields.io/github/license/maiquelp/Ecoleta?color=%238257e5">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/maiquelp/Ecoleta?color=774DD6">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/maiquelp/Ecoleta?color=29A361">
   <a href="https://github.com/maiquelp/Ecoleta/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/maiquelp/Ecoleta?color=%238257e5">
   <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-8257e5?style=flat">
