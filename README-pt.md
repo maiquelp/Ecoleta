@@ -33,8 +33,9 @@
   <a href="#memo-licença">Licença</a>
 </p>
 </strong>
+<br>
 <p align="center">
-    <img alt="Screens" src=".github/ecoleta_screens.png" height="400" />
+    <img alt="Screens" src=".github/ecoleta_screens.png" />
 </p>
 
 ## :bookmark: Sobre
